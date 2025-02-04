@@ -3,4 +3,6 @@
 name = input("Digite seu nome: \n")
 s_name = input("Digite seu sobre nome: \n")
 
-print(f"Seu nome completo é: {name} {s_name}")
+n_completo = name + ' ' + s_name 
+
+print(f"Seu nome completo é: {n_completo}")
