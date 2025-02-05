@@ -4,7 +4,7 @@
 valor_real = float(input("Digite o valor que deseja converter para Franco Congolês: \n"))
 
 #processamento do valor
-convert = valor_real * 490.762 #Soma para a conversão
+convert = valor_real * 495.75 #Soma para a conversão
 
 #saide de dados
-print(f"{valor_real} reais, é que valem a {convert:.2f} Francos Congolês")
+print(f"R$ {valor_real}, é que valem a {convert:.2f} Francos Congolês")
