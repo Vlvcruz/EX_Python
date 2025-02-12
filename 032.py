@@ -3,7 +3,7 @@
 num = int(input("Digite um numero: \n"))
 num2 = int(input("Digite um numero: \n"))
 
-for x in range (num, num2 +1):
+for x in range(num, num2 +1):
     soma = x % 2 == 0
     if soma == False:
         print(f"{x} = Impar")

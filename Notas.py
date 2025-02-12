@@ -26,7 +26,7 @@ T_suco = int(input("Qual valor pago no Suco ?  "))
 soma_total = Lanche * T_Lache + Suco * T_suco
 
 print(f"O valor total pago foi R$: {soma_total}")
-'''
+
 #Strings
 
 nome = 'vitor leon'
@@ -47,3 +47,29 @@ nome = input('nome: ').strip() #Recebe o dado inserido pelo usuario e tira os es
 print(nome.upper())#Deixa todas caracter em maiusculo
 print(nome.lower())#deixa todas caracter em minusculo
 print(nome.replace('L', 'P'))#Faz a troca das caracter L para P
+
+import time
+
+contador = 0
+
+while contador < 100:
+    time.sleep(0.5)
+    print(contador)
+    contador += 1
+
+#Laco de repetição
+
+'''
+
+opcao = 0
+
+while opcao != 5:
+    opcao = int(input("Digite o que deseja fazer: \n"
+                      "1. mostrar nome \n"
+                      "2. somar \n"
+                      "5. sair"))
+
+    if opcao == 1:
+        nome = input("seu nome")
+        print(f"Seu nome é {nome}")
+
